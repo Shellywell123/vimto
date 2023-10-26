@@ -11,7 +11,8 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
-    use {'folke/tokyonight.nvim', as = 'tokyonight'}
+    -- use {'folke/tokyonight.nvim', as = 'tokyonight'}
+    use { 'tanvirtin/monokai.nvim', as = 'monokai' }
     use {
 		'nvim-treesitter/nvim-treesitter',
 		run = ':TSUpdate'
